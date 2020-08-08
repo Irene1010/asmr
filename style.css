@@ -1,0 +1,54 @@
+body{
+  background-color: lavender;
+  text-align: center;
+}
+
+.nav{
+  display: block;
+}
+
+.ina{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.in {
+  width: 250px;
+  padding: 20px;
+  background-color: mediumpurple;
+  border-top: solid 5px #dfdfdf;
+  transition: background-color 0.2s, margin-left 0.5;
+}
+
+.in:hover{
+  background-color: purple;
+  margin-left: 10px;
+}
+
+ul{
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+
+.icon{
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  margin: 60px;
+}
+
+.headphone{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding-top: 300px;
+  width: 140px;
+  height: 140px;
+}
+
+.headphone:hover{
+  width: 160px;
+  height: 160px;
+}
